@@ -27,3 +27,5 @@ python run_MLP.py
 ```python
 python run_STGCN.py
 ```
+
+The above commands are run only according to the default parameter settings. All parameters can be modified according to your needs.

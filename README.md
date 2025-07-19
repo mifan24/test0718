@@ -10,7 +10,7 @@ This is a Pytorch implementation of FedFLI: Federated Learning for Edge-assisted
 We provide the processed NYC-Taxi and CHI-Bike datasets，the original data please refer to the repository of [ST-LLM](https://github.com/ChenxiLiu-HNU/ST-LLM).
 
 ## Train and Test
-Step 1: Process the teacher model:
+Step 1: Prepare the teacher model:
 
 ```python
 python run_LM4ST.py

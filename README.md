@@ -7,6 +7,23 @@ This is a Pytorch implementation of FedFLI: Federated Learning for Edge-assisted
 * cuda == 12.1
 
 ## Data
-We used the NYC-Taxi and CHI-Bike datasets, please refers to the repository of [ST-LLM](https://github.com/ChenxiLiu-HNU/ST-LLM)
-https://github.com/ChenxiLiu-HNU/ST-LLM
-## Train and test
+We provide the processed NYC-Taxi and CHI-Bike datasets，the original data please refer to the repository of [ST-LLM](https://github.com/ChenxiLiu-HNU/ST-LLM).
+
+## Train and Test
+Step 1: Process the teacher model:
+
+```python
+python run_LM4ST.py
+```
+
+Step 2: Train and test the student model:
+
+* For MLP student model
+```python
+python run_MLP.py
+```
+
+* For STGCN student model
+```python
+python run_STGCN.py
+```
